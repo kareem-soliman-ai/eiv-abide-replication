@@ -5,26 +5,15 @@
 
 **Author:** Kareem Soliman
 
-This repository provides a minimal, self-contained replication of the ABIDE-I
-phenotypic analysis reported in the paper. It reimplements only the published
-equations needed to estimate the pooled OLS slope, the EIV-corrected PCR slope,
-the leave-site-out cross-validation result, the within-tier slope analysis, and
-the 8x8 sensitivity grid. No code is imported from the protected broader PCR
-research pipeline.
+This repository provides a self-contained replication of the ABIDE-I phenotypic analysis reported in the paper. It reimplements only the published equations needed to estimate the pooled OLS slope, the EIV-corrected PCR slope, the leave-site-out cross-validation result, the within-tier slope analysis, and the 8x8 sensitivity grid. 
 
-This repository contains the minimal implementation of PCR sufficient to
-reproduce the results reported in the paper. PCR is introduced as a novel
-method in this work.
+PCR is introduced as a novel method in this work. This repository contains the implementation of Probability Cloud Regression (PCR) sufficient to reproduce the results reported in the paper. 
 
 ## Scope and IP Boundary
 
 - Only the paper-specific ABIDE-I replication is included here.
-- The code was written afresh for this repository and does not depend on any
-  other project modules.
-- No advanced PCR extensions are included: no eigendecomposition features, no
-  covariance-native modelling, no blind error-source discovery, and no
-  multi-timescale analysis.
-
+- The code was written afresh for this repository and does not depend on any other project modules.
+  
 ## Setup
 
 Python 3.9+ is sufficient.
@@ -35,9 +24,7 @@ pip install -r requirements.txt
 
 ## Data
 
-Download the public ABIDE-I phenotypic CSV separately, then place it in
-`data/abide_phenotypic.csv`. Detailed instructions are in
-[data/README.md](data/README.md).
+Download the public ABIDE-I phenotypic CSV separately, then place it in `data/abide_phenotypic.csv`. Detailed instructions are in [data/README.md](data/README.md).
 
 ## Usage
 
@@ -70,9 +57,7 @@ At baseline, the expected headline values are:
 - bias factor: about `4.67x`
 - LOSO `R^2`: about `-0.074`
 
-The manuscript reports convergence in 47 iterations for the original analysis
-run. This minimal rounded-parameter reimplementation converges faster on the
-public CSV while still matching the reported headline results within tolerance.
+The manuscript reports convergence in 47 iterations for the original analysis run. This rounded-parameter reimplementation converges faster on the public CSV while still matching the reported headline results within tolerance.
 
 ## Privacy and Data Distribution
 
@@ -103,6 +88,7 @@ Reproduction reports and bug fixes are welcome — see [CONTRIBUTING.md](CONTRIB
 
 **Kareem Soliman** — Independent AI Researcher
 - GitHub: [@kareem-soliman-ai](https://github.com/kareem-soliman-ai)
+- Email: kareem.soliman@outlook.com.au
 
 ## Licence
 
