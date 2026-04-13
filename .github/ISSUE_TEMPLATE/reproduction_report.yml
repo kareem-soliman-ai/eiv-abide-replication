@@ -1,0 +1,25 @@
+name: Reproduction Report
+description: Share results from an independent replication attempt
+labels: ["reproduction"]
+body:
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: "Describe your environment (OS, Python version, any modifications to the pipeline)"
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Results
+      description: "Report your headline metrics (OLS slope, PCR slope, bias factor, LOSO R²) and whether they match the expected values"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: "Any discrepancies, observations, or suggestions"
+    validations:
+      required: false

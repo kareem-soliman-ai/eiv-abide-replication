@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Soliman"
+    given-names: "Kareem"
+title: "The IQ-Motion Confound in Multi-Site Autism fMRI May Be Inflated by Site-Correlated Measurement Uncertainty"
+version: 1.0.0
+date-released: 2026-04-14
+url: "https://github.com/kareem-soliman-ai/eiv-abide-replication"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Soliman"
+      given-names: "Kareem"
+  title: "The IQ-Motion Confound in Multi-Site Autism fMRI May Be Inflated by Site-Correlated Measurement Uncertainty"
+  year: 2026

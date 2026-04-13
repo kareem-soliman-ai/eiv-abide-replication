@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+
+# Local caches and logs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.logs/
+.tmp/
+
+# Local environment files
+.env
+.env.*
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+
+# Local/source data that should not be published
+data/abide_phenotypic.csv
+
+# Local reproducibility scratch outputs
+results/_repro_check/
+figures/_repro_check/

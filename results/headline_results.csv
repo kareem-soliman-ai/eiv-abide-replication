@@ -1,0 +1,8 @@
+metric,value
+OLS slope (mm per IQ point),-0.0012477489733482992
+OLS intercept (mm),0.2653963715387615
+PCR slope (mm per IQ point),-0.00026522170474953477
+PCR intercept (mm),0.11772066523176115
+Bias factor (OLS overestimate),4.704550762640733
+LOSO R^2,-0.07443168689236379
+EM iterations,8.0
