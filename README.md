@@ -1,18 +1,13 @@
 # The IQ-Motion Confound in Multi-Site Autism fMRI May Be Inflated by Site-Correlated Measurement Uncertainty
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org)
 
 **Author:** Kareem Soliman
 
-This repository provides a self-contained replication of the ABIDE-I phenotypic analysis reported in the paper. It reimplements only the published equations needed to estimate the pooled OLS slope, the EIV-corrected PCR slope, the leave-site-out cross-validation result, the within-tier slope analysis, and the 8x8 sensitivity grid. 
+This repository provides a self-contained replication of the ABIDE-I phenotypic analysis reported in the paper. It reimplements only the published equations needed to estimate the pooled OLS slope, the EIV-corrected PCR slope, the leave-site-out cross-validation result, the within-tier slope analysis, and the 8x8 sensitivity grid.
 
-PCR is introduced as a novel method in this work. This repository contains the implementation of Probability Cloud Regression (PCR) sufficient to reproduce the results reported in the paper. 
-
-## Scope and IP Boundary
-
-- Only the paper-specific ABIDE-I replication is included here.
-- The code was written afresh for this repository and does not depend on any other project modules.
+PCR is introduced as a novel method in this work. This repository contains the implementation of Probability Cloud Regression (PCR) sufficient to reproduce the reported results.
   
 ## Setup
 
@@ -67,6 +62,12 @@ The manuscript reports convergence in 47 iterations for the original analysis ru
 - Published outputs in this repo are reduced to reproducibility-focused,
   privacy-safe tables and omit direct subject identifiers.
 
+## License and Intended Use
+
+- This repository is released for academic reproducibility and research use.
+- Commercial use is not permitted under the license applied to this repository.
+- If you need commercial licensing, contact the author.
+
 ## Citation
 
 If you use this repository, please cite:
@@ -92,4 +93,4 @@ Reproduction reports and bug fixes are welcome — see [CONTRIBUTING.md](CONTRIB
 
 ## Licence
 
-MIT — see [LICENSE](LICENSE) for details.
+CC BY-NC-SA 4.0 — see [LICENSE](LICENSE) for details.

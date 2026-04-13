@@ -16,6 +16,11 @@ Thank you for your interest in this project! Contributions — especially indepe
 - **Documentation improvements** — always welcome
 - **Extended analyses** — additional sensitivity analyses or alternative uncertainty specifications
 
+## Usage Context
+
+Contributions should align with the repository goal: academic reproducibility and
+non-commercial research use.
+
 ## Code Style
 
 - Python code follows PEP 8
