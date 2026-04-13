@@ -85,6 +85,12 @@ If you use this repository, please cite:
 
 Reproduction reports and bug fixes are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Community and Governance
+
+- Questions and replication discussion: [GitHub Discussions](https://github.com/kareem-soliman-ai/eiv-abide-replication/discussions)
+- Security reporting: [SECURITY.md](SECURITY.md)
+- Community expectations: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+
 ## Contact
 
 **Kareem Soliman** — Independent AI Researcher

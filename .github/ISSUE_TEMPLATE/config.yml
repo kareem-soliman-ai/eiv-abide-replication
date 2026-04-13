@@ -1,1 +1,5 @@
 blank_issues_enabled: true
+contact_links:
+	- name: Questions and Discussion
+		url: https://github.com/kareem-soliman-ai/eiv-abide-replication/discussions
+		about: Ask methodology questions or discuss replication details in Discussions.
